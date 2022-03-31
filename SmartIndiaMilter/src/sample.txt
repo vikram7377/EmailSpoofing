@@ -1,0 +1,88 @@
+Delivered-To: revathyravi10@gmail.com
+Received: by 10.74.52.92 with SMTP id n28csp1273401oof;
+        Fri, 24 Mar 2017 00:24:52 -0700 (PDT)
+X-Received: by 10.36.101.80 with SMTP id u77mr1746063itb.56.1490340292030;
+        Fri, 24 Mar 2017 00:24:52 -0700 (PDT)
+Return-Path: <14n216@skct.edu.in>
+Received: from mail-io0-x241.google.com (mail-io0-x241.google.com. [2607:f8b0:4001:c06::241])
+        by mx.google.com with ESMTPS id j132si1347669iof.22.2017.03.24.00.24.51
+        for <revathyravi10@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 24 Mar 2017 00:24:52 -0700 (PDT)
+Received-SPF: neutral (google.com: 2607:f8b0:4001:c06::241 is neither permitted nor denied by best guess record for domain of 14n216@skct.edu.in) client-ip=2607:f8b0:4001:c06::241;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@skct-edu-in.20150623.gappssmtp.com;
+       spf=neutral (google.com: 2607:f8b0:4001:c06::241 is neither permitted nor denied by best guess record for domain of 14n216@skct.edu.in) smtp.mailfrom=14n216@skct.edu.in
+Received: by mail-io0-x241.google.com with SMTP id f84so1802514ioj.0
+        for <revathyravi10@gmail.com>; Fri, 24 Mar 2017 00:24:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=skct-edu-in.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=40Zz5n80hfCyHaSEmC5qM9l92KFAsgs8DSiQXUoTX9k=;
+        b=vi/ufG4McACaQIGUNxJbREw3XgPDdIDPk2+xbzL3T+ggTayYkwhLqvHLiLmLE4DD4P
+         r7BH7ArfNAftKPG+Qi5/NUwbKO8Ox9soKWo9J1kBCiKXe8j4Rw2GJKYDgYxbEZmQiTgj
+         nSl1Xpmoi+/jYrpV8jvN0SA+6qG2/9oypOoP6NVkXfoqZydgMq/4ydzAhkUYk4/Q+Ygs
+         32MUFcd42SyV3cMuMkK4+U6sgDhIWfGDkGH6MFkUvY9L2XP7TT31TYcCeVho0zkNFMyk
+         nJEZmk1P12zt4O32XGmu9hxAx3cu4F1viJ1DnLF5/cm2a9k/Ny3KTX15uCx+d4/7NsKa
+         hCfQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=40Zz5n80hfCyHaSEmC5qM9l92KFAsgs8DSiQXUoTX9k=;
+        b=TPTMGzW+viK6WVD4d4A4CxxC2QMWdW4M2LjdtwnwGA823+oK/exXup6rubyMubK4zM
+         Jo4EpKq2WnUhxkWk8IOAv0hkYtCwkwqazxPCkNRQ2wenrH6rYSTffjQjS3A6ptKWqGqj
+         Nt3c1+ISn8lm/IXWsmqTAJZl66GG3x8adzI1nW8tmLruxXkzjjZdlQ3MBEOCvj197L6V
+         7l8FXWRdKwEs5YL0nrla70igNhh/FPcdkJodZFIX6vYRqY/EdfowPoZ8oNbc826297Dj
+         8qdX5NvpvRINUT9PZFc7bR+e9lnz/bnAi8l289Lx3Y66X2NPnyUdpSUFYFq1WpgoM436
+         4U6Q==
+X-Gm-Message-State: AFeK/H2qeDqlyzsZM9/vptDpqGRDmjDA+Kbt+6wMSjKrW0xp3QDYT3k4IbdZ92SAeixqascZpqeZXIRChv7IxQ==
+X-Received: by 10.107.165.212 with SMTP id o203mr6775482ioe.129.1490340291458;
+ Fri, 24 Mar 2017 00:24:51 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.107.23.67 with HTTP; Fri, 24 Mar 2017 00:24:50 -0700 (PDT)
+From: "14N216 REVATHI M.R." <14n216@skct.edu.in>
+Date: Fri, 24 Mar 2017 12:54:50 +0530
+Message-ID: <CAFGNPQ+BGa4mTTCj-v0+xsPGw3nGpiW4xsmUxzmbqyGeOsGFDg@mail.gmail.com>
+Subject: 
+To: revathyravi10 <revathyravi10@gmail.com>
+Content-Type: multipart/mixed; boundary=001a1141f382aafe81054b74e3ab
+
+--001a1141f382aafe81054b74e3ab
+Content-Type: multipart/alternative; boundary=001a1141f382aafe7d054b74e3a9
+
+--001a1141f382aafe7d054b74e3a9
+Content-Type: text/plain; charset=UTF-8
+
+
+
+--001a1141f382aafe7d054b74e3a9
+Content-Type: text/html; charset=UTF-8
+
+<div dir="ltr"><br></div>
+
+--001a1141f382aafe7d054b74e3a9--
+--001a1141f382aafe81054b74e3ab
+Content-Type: application/x-httpd-php; name="rev1.php"
+Content-Disposition: attachment; filename="rev1.php"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_j0ni4hzd0
+
+CiRuYW1hID0gJF9QT1NUWyduYW1hJ107CiRlbWFpbCA9ICRfUE9TVFsnZW1haWwnXTsKJHBlcnVz
+YWhhYW4gPSAkX1BPU1RbJ3BlcnVzYWhhYW4nXTsKJG1lc3NhZ2UgPSJuYW1hIDogIi4kX1BPU1Rb
+bmFtYV0uIlxyXG4iLiJFLW1haWwgOiAiLiRfUE9TVFtlbWFpbF0uIlxyXG4iLiJQZXJ1c2FoYWFu
+IDogIi4kX1BPU1RbcGVydXNhaGFhbl0uIlxyXG4iLiJOb21vciBIcCA6ICIuJF9QT1NUW2hwXS4i
+XHJcbiIuIk5vbW9yIFRscCA6ICIuJF9QT1NUW3RscF0uIlxyXG4iLiJBbGFtYXQgMSA6ICIuJF9Q
+T1NUW2FsYW1hdDFdLiJcclxuIi4iQWxhbWF0IDIgOiAiLiRfUE9TVFthbGFtYXQyXS4iXHJcbiIu
+IlRpcGUgbWVzaW4gOiAiLiRfUE9TVFt0aXBlXS4iXHJcbiIuInBlc2FuIDogIi4kX1BPU1RbcGVz
+YW5dOwokbWVzc2FnZSA9IHdvcmR3cmFwKCRtZXNzYWdlLDcwKTsKJGhlYWRlcnMgPSAnRnJvbTog
+bm9yZXBseUByZW50YWxyYWphZm90b2NvcHkuY29tJyAuICJcclxuIiAuCidSZXBseS1Ubzogd2Vi
+bWFzdGVyQGV4YW1wbGUuY29tJyAuICJcclxuIiAuCidYLU1haWxlcjogUEhQLycgLiBQSFBfVkVS
+U0lPTjsKCi8vUHJlcGFyZSBRdWVyeSB0byBzdG9yZSBkYXRhIGludG8gZGF0YWJhc2UgICAgIAok
+c3RtdD1teXNxbGlfcHJlcGFyZSgkY29uLCJJTlNFUlQgSU5UTyBwZW5hd2FyYW4obmFtYSxlbWFp
+bCxwZXJ1c2FoYWFuLG1lc3NhZ2UpIFZBTFVFUyg/LD8sPyw/KSIpOwovL0JpbmQgcGFyYW1ldGVy
+Cm15c3FsaV9zdG10X2JpbmRfcGFyYW0oJHN0bXQsInNzc3MiLCRuYW1hLCRlbWFpbCwkcGVydXNh
+aGFhbiwkbWVzc2FnZSk7CgovL1NlbmQgdGhlIGUtbWFpbAppZihtYWlsKCJpbGhhbUByYWphZm90
+b2NvcHkuY29tIiwiUGVuYXdhcmFuIiwkbWVzc2FnZSwkaGVhZGVycykpIHsKICAgIGVjaG8iZGF0
+YSBiZXJoYXNpbCBkaSBraXJpbWthbiBlLW1haWwiOwp9IGVsc2UgewogICAgZWNobyJkYXRhIHRp
+ZGFrIGJlcmhhc2lsIGRpa2lyaW0ga2UgZS1tYWlsLCBzYXlhbmcgc2VrYWxpIjsKfQo=
+--001a1141f382aafe81054b74e3ab--

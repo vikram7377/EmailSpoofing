@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="SmartIndiaMilter/src"/>
+	<classpathentry kind="lib" path="SmartIndiaMilter/lib/apache-jdkim-library-0.2.jar"/>
+	<classpathentry kind="lib" path="SmartIndiaMilter/lib/apache-jspf-resolver-0.9.7.jar"/>
+	<classpathentry kind="lib" path="SmartIndiaMilter/lib/apache-mailet-2.4.jar"/>
+	<classpathentry kind="lib" path="SmartIndiaMilter/lib/apache-mime4j-core-0.7.jar"/>
+	<classpathentry kind="lib" path="SmartIndiaMilter/lib/apache-mime4j-dom-0.7.jar"/>
+	<classpathentry kind="lib" path="SmartIndiaMilter/lib/dnsjava-2.1.1.jar"/>
+	<classpathentry kind="lib" path="SmartIndiaMilter/lib/javax.mail.jar"/>
+	<classpathentry kind="lib" path="SmartIndiaMilter/lib/log4j.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="SmartIndiaMilter/bin"/>
+</classpath>

@@ -1,0 +1,236 @@
+INFO  16:17:18,956 | org.apache.james.container.spring.context.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@2a14d8c8: startup date [Sat Apr 01 16:17:18 IST 2017]; root of context hierarchy
+WARN  16:17:26,401 | org.apache.james.container.spring.context.JamesServerApplicationContext | Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.FatalBeanException: Unable to config the indexer; nested exception is org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:67)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:696)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:461)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at org.apache.james.container.spring.context.JamesServerApplicationContext.<init>(JamesServerApplicationContext.java:40)
+	at org.apache.james.app.spring.JamesAppSpringMain.init(JamesAppSpringMain.java:61)
+	at org.apache.james.app.spring.JamesAppSpringMain.main(JamesAppSpringMain.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.lifecycle.ConfigurationProviderImpl.getConfiguration(ConfigurationProviderImpl.java:135)
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:47)
+	... 14 more
+INFO  16:20:07,086 | org.apache.james.container.spring.context.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@56b77265: startup date [Sat Apr 01 16:20:07 IST 2017]; root of context hierarchy
+WARN  16:20:12,059 | org.apache.james.container.spring.context.JamesServerApplicationContext | Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.FatalBeanException: Unable to config the indexer; nested exception is org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:67)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:696)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:461)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at org.apache.james.container.spring.context.JamesServerApplicationContext.<init>(JamesServerApplicationContext.java:40)
+	at org.apache.james.app.spring.JamesAppSpringMain.init(JamesAppSpringMain.java:61)
+	at org.apache.james.app.spring.JamesAppSpringMain.main(JamesAppSpringMain.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.lifecycle.ConfigurationProviderImpl.getConfiguration(ConfigurationProviderImpl.java:135)
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:47)
+	... 14 more
+INFO  16:22:46,019 | org.apache.james.container.spring.context.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@4ece3b01: startup date [Sat Apr 01 16:22:46 IST 2017]; root of context hierarchy
+WARN  16:22:51,032 | org.apache.james.container.spring.context.JamesServerApplicationContext | Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.FatalBeanException: Unable to config the indexer; nested exception is org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:67)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:696)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:461)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at org.apache.james.container.spring.context.JamesServerApplicationContext.<init>(JamesServerApplicationContext.java:40)
+	at org.apache.james.app.spring.JamesAppSpringMain.init(JamesAppSpringMain.java:61)
+	at org.apache.james.app.spring.JamesAppSpringMain.main(JamesAppSpringMain.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.lifecycle.ConfigurationProviderImpl.getConfiguration(ConfigurationProviderImpl.java:135)
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:47)
+	... 14 more
+INFO  16:24:15,925 | org.apache.james.container.spring.context.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@25b7715d: startup date [Sat Apr 01 16:24:15 IST 2017]; root of context hierarchy
+WARN  16:24:20,791 | org.apache.james.container.spring.context.JamesServerApplicationContext | Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.FatalBeanException: Unable to config the indexer; nested exception is org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:67)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:696)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:461)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at org.apache.james.container.spring.context.JamesServerApplicationContext.<init>(JamesServerApplicationContext.java:40)
+	at org.apache.james.app.spring.JamesAppSpringMain.init(JamesAppSpringMain.java:61)
+	at org.apache.james.app.spring.JamesAppSpringMain.main(JamesAppSpringMain.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.lifecycle.ConfigurationProviderImpl.getConfiguration(ConfigurationProviderImpl.java:135)
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:47)
+	... 14 more
+INFO  16:29:27,543 | org.apache.james.container.spring.context.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@2e73a403: startup date [Sat Apr 01 16:29:27 IST 2017]; root of context hierarchy
+WARN  16:29:32,548 | org.apache.james.container.spring.context.JamesServerApplicationContext | Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.FatalBeanException: Unable to config the indexer; nested exception is org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:67)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:696)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:461)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at org.apache.james.container.spring.context.JamesServerApplicationContext.<init>(JamesServerApplicationContext.java:40)
+	at org.apache.james.app.spring.JamesAppSpringMain.init(JamesAppSpringMain.java:61)
+	at org.apache.james.app.spring.JamesAppSpringMain.main(JamesAppSpringMain.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.lifecycle.ConfigurationProviderImpl.getConfiguration(ConfigurationProviderImpl.java:135)
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:47)
+	... 14 more
+INFO  16:36:30,077 | org.apache.james.container.spring.context.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@2e73a403: startup date [Sat Apr 01 16:36:30 IST 2017]; root of context hierarchy
+WARN  16:36:35,252 | org.apache.james.container.spring.context.JamesServerApplicationContext | Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.FatalBeanException: Unable to config the indexer; nested exception is org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:67)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:696)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:461)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at org.apache.james.container.spring.context.JamesServerApplicationContext.<init>(JamesServerApplicationContext.java:40)
+	at org.apache.james.app.spring.JamesAppSpringMain.init(JamesAppSpringMain.java:61)
+	at org.apache.james.app.spring.JamesAppSpringMain.main(JamesAppSpringMain.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.lifecycle.ConfigurationProviderImpl.getConfiguration(ConfigurationProviderImpl.java:135)
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:47)
+	... 14 more
+INFO  16:51:13,928 | org.apache.james.container.spring.context.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@441626bf: startup date [Sat Apr 01 16:51:13 IST 2017]; root of context hierarchy
+WARN  16:51:18,998 | org.apache.james.container.spring.context.JamesServerApplicationContext | Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.FatalBeanException: Unable to config the indexer; nested exception is org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:67)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:696)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:461)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at org.apache.james.container.spring.context.JamesServerApplicationContext.<init>(JamesServerApplicationContext.java:40)
+	at org.apache.james.app.spring.JamesAppSpringMain.init(JamesAppSpringMain.java:61)
+	at org.apache.james.app.spring.JamesAppSpringMain.main(JamesAppSpringMain.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.lifecycle.ConfigurationProviderImpl.getConfiguration(ConfigurationProviderImpl.java:135)
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:47)
+	... 14 more
+INFO  16:54:06,052 | org.apache.james.container.spring.context.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@13766d9c: startup date [Sat Apr 01 16:54:06 IST 2017]; root of context hierarchy
+WARN  16:54:11,285 | org.apache.james.container.spring.context.JamesServerApplicationContext | Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.FatalBeanException: Unable to config the indexer; nested exception is org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:67)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:696)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:461)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at org.apache.james.container.spring.context.JamesServerApplicationContext.<init>(JamesServerApplicationContext.java:40)
+	at org.apache.james.app.spring.JamesAppSpringMain.init(JamesAppSpringMain.java:61)
+	at org.apache.james.app.spring.JamesAppSpringMain.main(JamesAppSpringMain.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.lifecycle.ConfigurationProviderImpl.getConfiguration(ConfigurationProviderImpl.java:135)
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:47)
+	... 14 more
+INFO  17:00:57,066 | org.apache.james.container.spring.context.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@441626bf: startup date [Sat Apr 01 17:00:57 IST 2017]; root of context hierarchy
+WARN  17:01:04,544 | org.apache.james.container.spring.context.JamesServerApplicationContext | Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.FatalBeanException: Unable to config the indexer; nested exception is org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:67)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:696)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:461)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at org.apache.james.container.spring.context.JamesServerApplicationContext.<init>(JamesServerApplicationContext.java:40)
+	at org.apache.james.app.spring.JamesAppSpringMain.init(JamesAppSpringMain.java:61)
+	at org.apache.james.app.spring.JamesAppSpringMain.main(JamesAppSpringMain.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.lifecycle.ConfigurationProviderImpl.getConfiguration(ConfigurationProviderImpl.java:135)
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:47)
+	... 14 more
+INFO  17:09:41,278 | org.apache.james.container.spring.context.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@53330681: startup date [Sat Apr 01 17:09:41 IST 2017]; root of context hierarchy
+WARN  17:09:45,842 | org.apache.james.container.spring.context.JamesServerApplicationContext | Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.FatalBeanException: Unable to config the indexer; nested exception is org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:67)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:696)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:461)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at org.apache.james.container.spring.context.JamesServerApplicationContext.<init>(JamesServerApplicationContext.java:40)
+	at org.apache.james.app.spring.JamesAppSpringMain.init(JamesAppSpringMain.java:61)
+	at org.apache.james.app.spring.JamesAppSpringMain.main(JamesAppSpringMain.java:42)
+Caused by: org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.lifecycle.ConfigurationProviderImpl.getConfiguration(ConfigurationProviderImpl.java:135)
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:47)
+	... 8 more
+INFO  17:14:53,604 | org.apache.james.container.spring.context.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@13766d9c: startup date [Sat Apr 01 17:14:53 IST 2017]; root of context hierarchy
+WARN  17:14:59,170 | org.apache.james.container.spring.context.JamesServerApplicationContext | Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.FatalBeanException: Unable to config the indexer; nested exception is org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:67)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:696)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:461)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at org.apache.james.container.spring.context.JamesServerApplicationContext.<init>(JamesServerApplicationContext.java:40)
+	at org.apache.james.app.spring.JamesAppSpringMain.init(JamesAppSpringMain.java:61)
+	at org.apache.james.app.spring.JamesAppSpringMain.main(JamesAppSpringMain.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.commons.configuration.ConfigurationException: Unable to load configuration for component indexer
+	at org.apache.james.container.spring.lifecycle.ConfigurationProviderImpl.getConfiguration(ConfigurationProviderImpl.java:135)
+	at org.apache.james.container.spring.bean.factorypostprocessor.IndexerConfigurationBeanFactoryPostProcessor.postProcessBeanFactory(IndexerConfigurationBeanFactoryPostProcessor.java:47)
+	... 14 more
